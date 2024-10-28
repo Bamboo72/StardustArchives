@@ -1,0 +1,119 @@
+
+body {
+    background-color: aquamarine;
+    background-image: url("res/stardust-.jpg");
+    background-repeat: repeat-y;
+    background-size:100% auto
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration-line: underline;
+    /* text-decoration-style: wavy; */
+    text-decoration-color: rgb(206, 195, 0);
+    color: whitesmoke;
+    stroke-width: 0.1cm;
+    stroke-opacity: calc(50);
+    
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: whitesmoke;
+}
+h3 {
+    text-align: center;
+    color: whitesmoke;
+    stroke-width: 0.1cm;
+    
+}
+span.container{
+    /* display:flex; */
+    justify-content: space-between;
+    text-align: center;
+    padding-block: 30px;
+    color: whitesmoke;
+    stroke-width: 0.1cm;
+}
+
+div {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: rgb(185, 194, 224);
+}
+div div {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+p {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color:  rgb(185, 194, 224);
+}
+
+ul {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #125d6b;
+    padding: 20px;
+    text-align: left;
+  }
+ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+table{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    color: whitesmoke;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    border: 1px solid;
+    border-color: rgba(0, 255, 255, 0.629);
+    
+}
+td{
+    border: 1px solid;
+    text-emphasis-color: whitesmoke;
+    
+    background: #125d6b;
+    border-color: rgba(0, 255, 255, 0.629);
+}
+table a{
+    margin-left: 4%;
+    color:whitesmoke;
+}
+IMG{
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%
+    /* scale:.1; */
+    /* width: 50%; */
+}
+.moz-attached-image-container{
+    border: 4px;
+    border-color: greenyellow;
+    width: 300px;
+    height:auto;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* transform: scale(.5);
+    transform-origin: top left; */
+}
